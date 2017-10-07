@@ -143,7 +143,7 @@ console.log(add1.prototype)
 // add1 {}
 ```
 
-The result of logging `add1.prototype` looks a litte different then if we logged a regular empty object.
+The result of logging `add1.prototype` looks a litte different than if we logged a regular empty object.
 
 ```js
 var obj = {};
@@ -234,7 +234,7 @@ When the `new` keyword is omitted, you may or may not see an error -  one way to
 
 ### The instanceof operator
 
-If we try to use the `typeof` operator with any of the above created objects, we will always get back the string `"object"`. As far as types are concerned, javascript dconsiders all objects to be the same. We *can*, however, check if an object was created using a specific constructor function. This is done using the `instanceof` operator:
+If we try to use the `typeof` operator with any of the above created objects, we will always get back the string `"object"`. As far as types are concerned, javascript considers all objects to be the same. We *can*, however, check if an object was created using a specific constructor function. This is done using the `instanceof` operator:
 
 ```js
 console.log(killerRabbit instanceof Rabbit) // => true
